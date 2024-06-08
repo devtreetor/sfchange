@@ -21,7 +21,7 @@
         </script> -->
 </head>
 <!-- bg-gradient-to-r from-[#34e1eb] via-[#34b4eb] to-[#347aeb] -->
-<body>
+<body class="w-full bg-gradient-to-r from-custom-color to-custom-color">
   <nav class="bg-gradient-to-r from-custom-color to-custom-color px-4 md:px-8 lg:px-12 xl:px-20">
     <img src="logo.bddb2651f779649cce9b.png" class="mx-auto sm:hidden md:hidden xl:block lg:block" width="250" height="150">
     <img src="image 1.png" class="mx-auto hidden md:block">
@@ -41,6 +41,46 @@
         type="video/mp4">Your browser does not support the video tag.
     </video>
   </div>
+  
+<!-- not full working carousel -->
+<div class="container mx-auto flex flex-col items-center justify-center">
+  <h1 class="text-4xl font-bold mb-12">Gallery</h1>
+  <div class="carousel relative flex flex-row gap-4 mr-11 ml-11">
+    <div class="carousel-item w-[148px] h-[32px] rounded-lg overflow-hidden">
+      <img class="w-full h-full object-cover" src="image (1).jpg" alt="Image 1">
+    </div>
+    <div class="carousel-item w-[148px] h-[32px] rounded-lg overflow-hidden">
+      <img class="w-full h-full object-cover" src="image (2).jpg" alt="Image 2">
+    </div>
+    <div class="carousel-item w-w-[148px] h-[32px] rounded-lg overflow-hidden">
+      <img class="w-full h-full object-cover" src="image (3).jpg" alt="Image 3">
+    </div>
+    <div class="carousel-item w-[148px] h-[32px] rounded-lg overflow-hidden">
+      <img class="w-full h-full object-cover" src="image (4).jpg" alt="Image 4">
+    </div>
+    <div class="carousel-item w-[148px] h-[32px] rounded-lg overflow-hidden">
+      <img class="w-full h-full object-cover" src="image.jpg" alt="Image 5">
+    </div>
+
+    <button class="carousel-button absolute top-1/2 left-2 lg:left-auto lg:right-2 w-8 h-8 rounded-full bg-gray-200 opacity-50 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-label="Previous Slide">
+      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+    </button>
+    <button class="carousel-button absolute top-1/2 right-2 lg:left-auto lg:right-auto w-8 h-8 rounded-full bg-gray-200 opacity-50 hover:opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-label="Next Slide">
+      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+    </button>
+  </div>
+</div>
+
+<!-- not full working horizontal rule -->
+<hr class="mt-8 h-2">
+
+<div class="container mx-auto flex flex-col items-center justify-center">
+  <div class="bg-red-500 w-56 h-56 mt-4 mb-4 ml-4 mr-4 rounded-lg flex items-center justify-center">
+    <h1 class="text-white text-4xl font-bold mb-4 mt-[-30px]">Reviews</h1>
+  </div>
+</div>
+
+
 </body>
 
 </html>
